@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap-icons/font/bootstrap-icons.css' 
-import Link from 'react'
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 export default function Footer() {
   return (
