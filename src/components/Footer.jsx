@@ -1,6 +1,5 @@
 import React from 'react'
 import 'bootstrap-icons/font/bootstrap-icons.css' 
-import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -23,10 +22,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold text-white mb-3">Quick Links</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link to="/" className="hover:text-white transition-all"><i className="bi bi-house-door mr-2"></i>Home</Link></li>
-              <li><Link to='/packages' className="hover:text-white transition-all"><i className="bi bi-bag-heart mr-2"></i>Packages</Link></li>
-              <li><Link to='/about' className="hover:text-white transition-all"><i className="bi bi-info-circle mr-2"></i>About</Link></li>
-              <li><Link to='/contact' className="hover:text-white transition-all"><i className="bi bi-envelope mr-2"></i>Contact</Link></li>
+              <li><a href="/" className="hover:text-white transition-all"><i className="bi bi-house-door mr-2"></i>Home</a></li>
+              <li><a href='/packages' className="hover:text-white transition-all"><i className="bi bi-bag-heart mr-2"></i>Packages</a></li>
+              <li><a href='/about' className="hover:text-white transition-all"><i className="bi bi-info-circle mr-2"></i>About</a></li>
+              <li><a href='/contact' className="hover:text-white transition-all"><i className="bi bi-envelope mr-2"></i>Contact</a></li>
             </ul>
           </div>
 
